@@ -1,7 +1,7 @@
 ---
 
 - hosts: all
-  become: yes
+  become: true
   tasks:
   - name: Recreate app
     command: /home/hanz/Desktop/dvpwa/recreate.sh
