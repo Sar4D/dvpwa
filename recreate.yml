@@ -1,0 +1,8 @@
+---
+
+- hosts: 10.4.0.20
+  become: yes
+  become_user: root
+  tasks:
+  - name: Recreate app
+    command: /home/hanz/Desktop/dvpwa/recreate.sh
